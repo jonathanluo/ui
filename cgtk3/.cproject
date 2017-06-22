@@ -106,7 +106,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="textview/markup.c|textview/hypertext.c|textview/scrollview.c|textview/multiview.c|multiview.c|uibuilder.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="scrolledwindow|textview/textview.c|textview/multiview_m.c|iconview/iconview.c|textview/markup.c|textview/hypertext.c|textview/scrollview.c|textview/multiview.c|multiview.c|uibuilder.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -212,7 +212,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="textview/markup.c|textview/hypertext.c|textview/scrollview.c|textview/multiview.c|multiview.c|uibuilder.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="scrolledwindow|textview/textview.c|textview/multiview_m.c|iconview/iconview.c|textview/markup.c|textview/hypertext.c|textview/scrollview.c|textview/multiview.c|multiview.c|uibuilder.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
