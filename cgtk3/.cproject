@@ -24,6 +24,7 @@
 								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1395788405" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.1377232723" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.433715700" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/mircore"/>
 									<listOptionValue builtIn="false" value="/usr/include/gtk-3.0"/>
 									<listOptionValue builtIn="false" value="/usr/include/at-spi2-atk/2.0"/>
 									<listOptionValue builtIn="false" value="/usr/include/at-spi-2.0"/>
@@ -51,6 +52,7 @@
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1893980659" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.debug.option.debugging.level.1313094022" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1577339332" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/mircore"/>
 									<listOptionValue builtIn="false" value="/usr/include/gtk-3.0"/>
 									<listOptionValue builtIn="false" value="/usr/include/at-spi2-atk/2.0"/>
 									<listOptionValue builtIn="false" value="/usr/include/at-spi-2.0"/>
@@ -104,7 +106,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="uibuilder.c|scrollview.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="textview/markup.c|textview/hypertext.c|textview/scrollview.c|textview/multiview.c|multiview.c|uibuilder.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -125,6 +127,25 @@
 						<entry flags="UNDEFINED" kind="libraryFile" name="glib-2.0" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 					<externalSetting contentTypes="org.eclipse.cdt.core.cSource:org.eclipse.cdt.core.cxxSource">
+						<entry flags="NONE" kind="includePath" name="/usr/include/gtk-3.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/at-spi2-atk/2.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/at-spi-2.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/dbus-1.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/gio-unix-2.0/"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/mirclient"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/mircommon"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/mircookie"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/cairo"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/pango-1.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/harfbuzz"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/atk-1.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/pixman-1"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/freetype2"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/libpng12"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/gdk-pixbuf-2.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/include/glib-2.0"/>
+						<entry flags="NONE" kind="includePath" name="/usr/lib/x86_64-linux-gnu/glib-2.0/includ"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/gtk-3.0"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/at-spi2-atk/2.0"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/at-spi-2.0"/>
@@ -132,7 +153,7 @@
 						<entry flags="BUILTIN" kind="includePath" name="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/gio-unix-2.0/"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/mirclient"/>
-						<entry flags="BUILTIN" kind="includePath" name="/usr/include/mircommon"/>
+						<entry flags="BUILTIN" kind="includePath" name="/usr/include/mircore"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/mircookie"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/cairo"/>
 						<entry flags="BUILTIN" kind="includePath" name="/usr/include/pango-1.0"/>
@@ -191,7 +212,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="uibuilder.c|scrollview.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="textview/markup.c|textview/hypertext.c|textview/scrollview.c|textview/multiview.c|multiview.c|uibuilder.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
